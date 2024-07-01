@@ -5,7 +5,7 @@ Evaluating the performance of large language models on spam email detection, the
 This repository has two spam detection datasets: one in English and another in Chinese.
 
 # In-context learning for spam detection
-We evaluate the performance of ChatGPT for spam detection, and the prompt is shown as follows.
+We evaluate the performance of ChatGPT for spam detection, and one possible 10-shot prompt is shown as follows.
 ```Forget all your previous instructions. \n",
     " Pretend you are a spam mail detection expert who try to identify whether a mail is spam mail. \n",
     "        Answer “spam” if it is spam, “ham” if you think it is not a spam. \n",
